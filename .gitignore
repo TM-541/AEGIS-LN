@@ -1,0 +1,19 @@
+# Secrets & local config
+.env
+.env.*
+*.pem
+*.key
+
+# Private material (never publish)
+*.pdf
+private/
+drafts/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+.claude/
+CLAUDE.md
